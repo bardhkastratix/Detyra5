@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+}
+
+.buttons{
+    justify-content: right;
+    padding: 65px 25px;
+     
+}
+
+.buttons button{
+    border: none;
+    background-color: royalblue;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+#button:hover{
+    transition: 0.5s ease;
+    height: 50px;
+    width: 120px;
+    
+}
+
+.middle{
+    position: relative;
+    width:100%;
+}
+
+.middle-header{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.middle-buttons{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-button1{
+    width: 50%;
+    height: 100%;
+    border: 2px solid grey;
+    border-style: none solid solid none;
+}
+.middle-button1 button{
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.middle-button2{
+    width: 50%;
+    height: 50px;
+    border: 2px solid grey;
+    border-style: none none solid solid;
+}
+.middle-button2 button{
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.middle-container{
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
+.middle-container>p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.middle-container>input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border: none;
+    padding-left: 5px;
+}
+
+.loginbutton{
+    padding-top: 20px;
+}
+
+.loginbutton>button{
+    width: 100px;
+    height: 30px;    
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.registerbutton{
+    padding-top: 20px;
+}
+
+.registerbutton>button{
+    width: 100px;
+    height: 30px;    
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+
+#register{
+    left: 500px;
+}
+
+.middle-container2{
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.middle-container2>p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.middle-container2>input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border: none;
+    padding-left: 5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: center;
+}
